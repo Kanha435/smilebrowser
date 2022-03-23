@@ -1,0 +1,48 @@
+.search-input{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* border:1px solid rgb(187, 185, 185); */
+    border-radius: 25px;
+    width: 75vw;
+    margin:15px auto;
+    max-width: 560px;
+    padding: 5px 20px;
+    box-shadow: 2px -1px 2px 0 rgba(179, 179, 179, 0.493), 0 4px 6px 0 rgba(114, 113, 113, 0.192);
+    /* background-color: red;
+     */
+}
+.search-input > input{
+    flex: 1;
+    padding: 5px 10px;
+    border: none;
+    font-size: medium;
+    background-color: transparent;
+}
+.search-input >input:focus{
+    outline: none;
+}
+.search-input-icon{
+    color: rgb(187, 185, 185);
+}
+.search-mic-icon{
+    color: rgb(99, 192, 99);
+}
+.search-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: black;
+}
+.search-button>button{
+    text-transform: inherit;
+    margin: 5px;
+    padding: 5px 20px;
+    background-color: rgb(223, 223, 223);
+    color: rgb(116, 109, 109);
+    border: 1px solid white;
+}
+.search-button>button:hover{
+    border: 1px solid rgb(207, 205, 205);
+    color: black;
+}
